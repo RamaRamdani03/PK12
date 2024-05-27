@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>DOM Javascript</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h3>Pendaftaran Peminatan</h3>
+        </div>
+    <form action="">
+        <label for="nama">Nama</label><br>
+        <input type="text" placeholder="Nama anda" id="nama"><br><br>
+        <label for="nim">NIM</label><br>
+        <input type="text" placeholder="NIM anda" id="nim"><br>
+        <p>Peminatan pada bidang: </p>
+
+        <input type="radio" name="peminatan" id="programming" value="programming">
+        <label for="programming">Programming</label><br>
+        <input type="radio" name="peminatan" id="desain" value="desain">
+        <label for="programming">Desain</label><br>
+        <input type="radio" name="peminatan" id="jaringan" value="jaringan">
+        <label for="programming">Jaringan</label><br>
+        <input type="radio" name="peminatan" id="data" value="data">
+        <label for="programming">Data</label><br><br>
+        <label for="">Alamat</label><br>
+        <textarea placeholder="Tulis alamat mu disini" name="alamat" id="alamat" cols="30" rows="5"></textarea><br><br>
+        <button type="submit" onclick="KirimData()">Kirim</button>
+    </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
